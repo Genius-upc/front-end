@@ -1,13 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>FreePlace</title>
+  <link rel="icon" type="image/x-icon" href="Imagens/Logo.png">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <script
+            src="https://kit.fontawesome.com/7e5b2d153f.js"
+            crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+
+<header class="header-area">
+    <div class="header-container">
+        <div class="site-logo">
+            <a class="Logo" href="#"><img  src="Imagens/Logo.png" alt="Logo"></a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="site-nav-menu">
+            <ul class="primary-menu">
+                <li><a href="#presentation" class="active">Presentation</a></li>
+                <li><a href="#freeplace">FreePlace</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a class="button-Login" href="https://app-web-hosting.web.app/home">Let's Go</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="banner" id="presentation">
+    <img class="img1" src="Imagens/Banner.png" alt="">
+    <h1>Genius Offers <br> "FreePlace"</h1>
+    <p>This proposal aims to suport drivers to find a free parking
+            space inmediatly throug their GPS location</p>
+</div>
+
+<div class="banner-2" id="freeplace">
+    <div class="banner3-text">
+        <h1>Find parking in seconds</h1>
+        <p>Choose from millions of available or reserve your space in advance.<br>
+            Join over 5.5 millions drivers enjoying easy parking</p>
+    </div>
+    <div class="banner3-image">
+        <img class="img_a" src="Imagens/Banner3.png">
+    </div>
+</div>
+
+<div class="section" id="plans">
+    <div class="title">
+        <h1>Plans of FreePlace</h1>
+    </div>
+    <div class="container-card">
+        <div class="card-plan">
+            <img src="Imagens/Basic.png">
+            <div class="contenido-card">
+                <h3>Basic</h3>
+                <strong>Find free parking<br>
+                    See the location<br>
+                    <span style="color: #7a7a7a">Reserve parking</span>.<br></strong>
+                <a href="transporte-distribucion.html">Free</a>
+            </div>
+        </div>
+        <div class="card-plan">
+            <img src="Imagens/premiun.png">
+            <div class="contenido-card">
+                <h3>Premiun</h3>
+                <strong>Find parking for free<br>
+                    See the location<br>
+                    <span style="color: #7a7a7a">Reserve parking</span>.<br></strong>                <a href="parqueria.html">$29.90</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h1>Video About the Product</h1><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GMz-ou3QKBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div>
+    <h1>Video About the Team</h1><br>
+    <iframe width="1490" height="789" src="https://www.youtube.com/embed/Bcp_VQqBdcQ" title="About the Product - FreePlace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+    <div class="title" id="aboutus">
+    <h1>About Us</h1>
+
+<div class="container-card">
+    <div class="card">
+        <figure>
+            <img src="Imagens/Inthegrante1.png" alt="foto">
+        </figure>
+        <div class="contenido-card">
+            <h3>John Paul Quispe Mamani</h3>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="Imagens/Inthegrante2.png" alt="foto2">
+        </figure>
+        <div class="contenido-card">
+            <h3>Tomas Ortiz Fajardo</h3>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="Imagens/Inthegrante3.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Mijael Yen Quispe</h3>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container-card">
+    <div class="card">
+        <figure>
+            <img style="margin-left: 50px;" src="Imagens/Inthegrante4.png" alt="foto">
+        </figure>
+        <div class="contenido-card">
+            <h3>Caroline Bernuy Villanueva</h3>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+</div>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="Imagens/Logo.png" alt="Logo Huex">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>Contact</h2>
+            <p>992364458 - 965386807</p>
+            <p>client@Genius.com</p>
+        </div>
+        <div class="box">
+            <h2>Social Networks</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+                <a href="#" class="fa fa-whatsapp" aria-hidden="true"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Genius</b> - Rights Reserved Genius </small>
+        <a href="terms&conditions.html">Terms & Conditions</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/Genius.js"></script>
+
+</body>
 </html>
